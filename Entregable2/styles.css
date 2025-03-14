@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    padding: 20px;  
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(177, 199, 174, 0.925);
+}
+ 
+h2 {
+    color: rgb(72, 67, 145);
+}
+legend{
+    color: rgb(72, 67, 145);
+}
+label{
+    font-weight: bold;
+}
+input,textarea,select{
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+table, th, td {
+    border: 1px solid black;
+  }

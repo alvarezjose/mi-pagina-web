@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entregable #2</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <script>
+    let op,res,val=true,num1=10,num2=20;
+
+while(val!=false){
+op= prompt("Escriba una de las operaciones. \nDigite Suma o Resta o Multiplicacion o Division");
+op=op.toLowerCase();
+
+if(op=="suma" || op=="resta"|| op=="multiplicacion"|| op=="division"){
+  console.log('correcto');
+  res=realizaroperaciones(num1,num2,op);
+  val = confirm(' Desea realizar otra operacion?');
+}else{ 
+val=alert('Error, Digite nuevamente la operacion')
+ }
+}
+function realizaroperaciones(num1,num2,op){
+  if(op=="suma"){
+      return console.log('La suma de',num1,' + ',num2,' es:',num1+num2);
+  }else if(op=="resta"){
+      return console.log('La resta de',num1,' - ',num2,' es:',num1-num2);
+  }else if(op=="multiplicacion"){
+      return console.log('El producto de',num1,' x ',num2,' es:',num1*num2);
+  }else{
+      if (num2==0){
+           console.log('la division por cero(0) no existe'); 
+           return;
+      }else{
+          return console.log('La division de',num1,' / ',num2,' es:',num1/num2);
+      }
+  }
+}
+  </script>
+</body>
+</html>
