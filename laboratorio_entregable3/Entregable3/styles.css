@@ -1,0 +1,80 @@
+body{
+    display: flex;
+     padding: 50px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(215, 234, 255);
+}
+#img01{
+    display:block;
+    margin:auto;
+    border-radius: 1em;
+}
+    
+h1{
+    font-style: italic;
+    text-align:"center";
+    color: rgb(13, 167, 206);
+}
+header,footer{
+    background-color: lightblue;
+    color: aqua;
+    text-align: center;
+    padding: 1em 0;
+    
+    }
+h2 {
+    color: rgb(92, 209, 255);
+}
+legend{
+    color: rgb(72, 67, 145);
+}
+label{
+    font-weight: bold;
+    text-align:left;
+}
+p{
+    margin: 4px;
+    padding:5px;  
+}
+input,textarea,select{
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+
+  section{  
+    width: 800px;
+    text-align: justify;
+    padding: 1em 0;
+    background-color:rgb(243, 242, 197);
+    margin: 1em;
+    padding: 1em;
+    border: 3px solid rgb(149, 149, 153);
+    border-radius: 5px;
+   
+  
+  }
+  #seccion3{
+    text-align: left;
+    margin: 1em;
+    
+  }
+  #formulario{
+    position:relative;
+  }
+  fieldset {
+    display: block;
+    min-inline-size: min-content;
+    margin-inline: 40px;
+    border-width: 2px;
+    border-style: groove;
+    border-image: initial;
+    padding-block: 0.35em 0.625em;
+    padding-inline: 0.75em;
+  }

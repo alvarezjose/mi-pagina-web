@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+  <section>
+    <img   id="img01"src="./foto.jpg" alt="logo">
+    <h1>Informacion Personal</h1>
+    <h2>Nombres y Apellidos: </h2> 
+    <p>Jose luis Hinojosa Alvarez </p>
+    <h2>Edad: </h2>  
+    <p>41 Años</p>
+    <h2>Correo: </h2>  
+    <p>alvarezjose776@gmail.com </p>
+    <h2>Telefono: </h2>  
+    <p>3023457689 </p>
+    <a href="www.google.com" target="_blank">Facebook</a>
+    <br>
+    <a href="www.google.com" target="_blank">Tiktok</a>
+    <br>
+    <a href="www.google.com" target="_blank">Instagram</a>
+  </section>
+    <section>
+    <h2>Pasatiempos</h2><br> 
+    <ul>
+        <li>Arreglar electrodomesticos</li>
+        <li>Hacer trabajos </li>
+        <li>Estudiar</li>
+    </ul>
+    <h2>Tareas Pendientes</h2><br>
+    <ol>
+        <li>Llevar a la niña al Colegio </li>
+        <li>Hacer algun Oficio de la casa</li>
+        <li>Realizar trabajo que salga</li>
+        <li>Realizar Vueltas medicas</li>
+        <li>Salir en Familia</li>
+        <li>Descansar</li>
+    </ol>
+  </section>
+    
+   <section>
+    <table>
+        <thead>
+          <tr>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sabado</th>
+            <th>Domingo</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>Llevar a la niña al Colegio</td>
+          <td>Llevar a la niña al Colegio</td>
+          <td>Llevar a la niña al Colegio</td>
+          <td>Llevar a la niña al Colegio</td>
+          <td>Llevar a la niña al Colegio</td>
+          <td>Salir en Familia</td>
+          <td>Descansar</td>
+        </tr>
+        <tr>
+          <td>Hacer algun Oficio de la casa</td>
+          <td>Hacer algun Oficio de la casa</td>
+          <td>Realizar trabajo</td>
+          <td>Realizar trabajo</td>
+          <td>Realizar trabajo</td>
+          <td>Salir en Familia</td>
+          <td>Descansar</td>
+        </tr>
+        <tr>
+          <td>Realizar Vueltas medicas</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>       
+       </table>
+      </section>
+       <section id="seccion3">
+        <form action="" id="formulario" onsubmit="return validarFormulario()">
+            <fieldset style="width: 700px;">
+                <legend>Formulario de Contacto</legend>
+            <label for="Nombres_Apellidos">Nombres y Apellidos:</label>
+            <input type="text" name="Nombres_Apellidos" id="Nombres_Apellidos" placeholder="Tus Nombres y Apellidos" size="20" required                                   >
+            <label ><b>Motivo del Contacto</b></label>
+            <textarea name="campo" id="campo" rows="5" cols="10"></textarea>  
+            <label>Correo:</label>
+            <input type="email" id="email" name="email" placeholder=" Tu correo" value="">
+            <input type="submit" value="Enviar informacion">
+            </fieldset>
+          </form>
+       </section>
+       
+</body>
+</html>
